@@ -18,6 +18,7 @@ public class JavaApplication1 {
         // TODO code application logic here
         System.out.println("It's a test program");
         System.out.println("negetive ");
+        System.out.println("i am added");
     }
     
 }
