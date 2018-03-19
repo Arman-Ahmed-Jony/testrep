@@ -11,6 +11,7 @@ package javaapplication1;
  */
 public class JavaApplication1 {
 
+    private String name;
     /**
      * @param args the command line arguments
      */
@@ -19,6 +20,20 @@ public class JavaApplication1 {
         System.out.println("It's a test program");
         System.out.println("negetive ");
         System.out.println("i am added");
+    }
+
+    /**
+     * @return the name
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * @param name the name to set
+     */
+    public void setName(String name) {
+        this.name = name;
     }
     
 }
